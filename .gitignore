@@ -1,0 +1,26 @@
+# Text editors
+*.sublime-project
+*.sublime-workspace
+.zedstate
+
+# Grunt
+node_modules/
+bower_components
+.bowerrc
+
+npm-debug.log
+
+# IDEs/Editors
+*.sublime-project
+*.sublime-workspace
+.idea
+.zedstate
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

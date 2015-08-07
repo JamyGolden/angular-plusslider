@@ -1,0 +1,28 @@
+{
+  "name": "angular-plusslider",
+  "main": "src/js/angular-plusslider.js",
+  "version": "0.0.0",
+  "authors": [
+    "Jamy Golden <jamygolden@gmail.com>"
+  ],
+  "description": "An agnostic jQuery content slider that is easily configurable",
+  "keywords": [
+    "plusslider",
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/JamyGolden/PlusSlider/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "jquery": "~2.1.4",
+    "jquery.easing": "~1.3.1",
+    "jquery.plusslider": ">=1.5.16"
+  }
+}

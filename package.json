@@ -1,0 +1,27 @@
+{
+  "name": "platformer",
+  "version": "0.0.0",
+  "description": "A platform game",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "node_modules/gulp/bin/gulp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:jamygolden/platformer.git"
+  },
+  "contributors": [
+    {
+      "name": "Jamy Golden"
+    },
+    {
+      "name": "Michael Duminy"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.2.0"
+  }
+}
