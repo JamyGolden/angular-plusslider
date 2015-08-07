@@ -2,7 +2,7 @@
 
 An agnostic, fluid jQuery content slider that is easily configurable and stylable.
 
-This plugin makes use of (PlusSlider)[https://github.com/JamyGolden/PlusSlider]. Visit PlusSlider for more information.
+This plugin makes use of [PlusSlider](https://github.com/JamyGolden/PlusSlider). Visit PlusSlider for more information.
 
 ## Usage instructions
 Include the jQuery, PlusSlider, Angular and ngPlusSlider scripts to your page:
@@ -30,7 +30,7 @@ You are now able to use the PlusSlider directive:
 </div>
 ```
 
-Options can be added to the directive via the plusslider-options attribute. The attribute accepts an object of options just as (PlusSlider)[https://github.com/JamyGolden/PlusSlider] does.
+Options can be added to the directive via the plusslider-options attribute. The attribute accepts an object of options just as [PlusSlider](https://github.com/JamyGolden/PlusSlider) does.
 ```
 <div plusslider
  plusslider-options="{
