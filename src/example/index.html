@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+    <meta charset="utf-8">
+    <title>PlusSlider</title>
+    <link rel="stylesheet" type="text/css" href="css/plusslider.css" />
+    <style>
+        /* Custom Slider Styling */
+        img { border: 0; display: block; margin: 0 auto; }
+        .slide1 { background: #171105 url(./images/image1.jpg) no-repeat center top; padding: 20px 40px; width: 550px; }
+        .slide1 > div { margin: 0 auto; width: 630px; }
+        .slide1 h2 { color: #fff; font-size: 20px; margin: 0 0 20px 0; text-align: left; }
+        .slide1 p { border-left: 3px solid #fff; color: #fff; padding: 0 0 0 10px; }
+        /* Page Styling */
+        .quote, .quote2, .quote3 { padding: 20px 0; width: 580px; font: 24px Georgia, serif; text-align: center; width: 100%; position: relative; }
+        .quote { background: #f1f1f1; color: #333; }
+        .quote2 { background: #333; color: #f1f1f1; }
+        .quote3 { background: #666; color: #f1f1f1; }
+        .quote:after, .quote2:after, .quote3:after { content: '100% width'; position: absolute; right: 0; top: 0; }
+        body { background: #333; color: #fff; font: 14px Verdana, sans-serif; }
+        a { color: #fff; text-decoration: underline; }
+        a:hover { text-decoration: none;}
+        h1 { font: 52px/100px sans-serif; text-align: center; }
+        h1 a { color: #fff; text-decoration: none; }
+        h1 a:visited { color: #fff; }
+        .l-container { margin: 0 auto; max-width: 768px; }
+    </style>
+</head>
+<body>
+    <div class="l-container">
+        <h1>
+            <a href="https://github.com/JamyGolden/angular-plusslider">ngPlusSlider</a>
+        </h1>
+        <p>
+            An agnostic, fluid AngularJS content slider that is easily configurable and stylable.
+            This plugin makes use of <a href="https://github.com/JamyGolden/PlusSlider">PlusSlider</a>.
+        </p>
+        <p>
+            For more information visit the <a href="https://github.com/JamyGolden/angular-plusslider">ngPlusSlider</a> github page.
+        </p>
+
+        <div plusslider
+         plusslider-options="{
+            autoPlay: false,
+            sliderEasing: 'easeInOutExpo',
+            paginationPosition: 'append',
+            sliderType: 'slider'
+        }">
+            <div data-title="PlusSlider" class="slide1">
+                <div>
+                    <h2>PlusSlider</h2>
+                    <p>
+                        A content slider that simply works...<br />
+                        The right way
+                    </p>
+                </div>
+            </div>
+
+            <a data-title="Tree" href="#"><img src="images/tree.jpg" alt="" height="250" width="351" /></a>
+
+            <img data-title="Sunset" src="images/clouds.jpg" alt="" height="134" width="630" />
+
+            <img data-title="Stop Sign" src="images/image4.jpg" alt="" height="250" width="630" />
+        </div>
+
+        <br />
+        <br />
+
+        <div plusslider
+         plusslider-options="{
+             autoPlay: false,
+             sliderEasing: 'easeInOutExpo',
+             paginationPosition: 'append',
+             sliderType: 'fader'
+         }">
+            <div data-title="PlusSlider" class="slide1">
+                <div>
+                    <h2>PlusSlider</h2>
+                    <p>
+                        A content slider that simply works...<br />
+                        The right way
+                    </p>
+                </div>
+            </div>
+
+            <a data-title="Tree" href="#"><img src="images/tree.jpg" alt="" height="250" width="351" /></a>
+
+            <img data-title="Sunset" src="images/clouds.jpg" alt="" height="134" width="630" />
+
+            <img data-title="Stop Sign" src="images/image4.jpg" alt="" height="250" width="630" />
+
+        </div>
+    </div>
+
+        <br />
+        <br />
+
+    <div plusslider
+    plusslider-options="{
+        sliderEasing: 'easeInOutExpo',
+        autoPlay: false,
+        sliderType: 'slider'
+    }">
+        <div data-title="Quote" class="quote">
+            I do not fear death,<br />
+            in view of the fact that I had been dead<br />
+            for billions and billions of years<br />
+            before I was born, and had not suffered<br />
+            the slightest inconvenience from it.<br />
+            - Mark Twain
+        </div>
+        <div data-title="Quote2" class="quote2">
+            The difference between the right word<br />
+            and the almost right word is the difference<br />
+            between lightning and a lightning bug.<br />
+            - Mark Twain
+        </div>
+        <div data-title="Quote3" class="quote3">
+            Nature knows no indecencies;<br />
+            man invents them.<br />
+            - Mark Twain
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="../bower_components/jquery.easing/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="../bower_components/jquery.plusslider/js/jquery.plusslider.min.js"></script>
+    <script type='text/javascript' src='../js/angular-plusslider.js'></script>
+    <script type='text/javascript'>
+        angular.module('App', [
+            'ngPlusSlider'
+        ]);
+    </script>
+
+
+</body>
+</html>
