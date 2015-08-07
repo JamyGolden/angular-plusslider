@@ -1,0 +1,1 @@
+!function(n,i,e,r){"use strict";i.module("ngPlusSlider",[]).directive("plusslider",function(n){var i=null;return{restrict:"A",scope:{plussliderOptions:"="},link:function(n,r){i=new e.plusSlider(r,n.plussliderOptions),n.$on("destroy",function(){i.destroy()})}}})}(window,angular,jQuery);
