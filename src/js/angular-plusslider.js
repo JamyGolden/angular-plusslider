@@ -1,10 +1,10 @@
 /*
  * angular-plusslider
- * An agnostic jQuery content slider that is easily configurable
+ * An agnostic AngularJS content slider that is easily configurable
  * Angular wrapper for PlusSlider https://github.com/JamyGolden/PlusSlider
- * Version: "1.5.16"
+ * Version: "1.0.0"
  * Jamy Golden (http://css-plus.com/)
- * https://github.com/JamyGolden/PlusSlider
+ * https://github.com/JamyGolden/angular-plusslider
  * License: MIT
  */
 (function(window, angular, $, undefined){

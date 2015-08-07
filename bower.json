@@ -1,7 +1,7 @@
 {
   "name": "angular-plusslider",
   "main": "src/js/angular-plusslider.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "authors": [
     "Jamy Golden <jamygolden@gmail.com>"
   ],
