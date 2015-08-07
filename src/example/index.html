@@ -39,12 +39,12 @@
             For more information visit the <a href="https://github.com/JamyGolden/angular-plusslider">ngPlusSlider</a> github page.
         </p>
 
+        <h2>
+            PlusSlider with easing
+        </h2>
         <div plusslider
          plusslider-options="{
-            autoPlay: false,
-            sliderEasing: 'easeInOutExpo',
-            paginationPosition: 'append',
-            sliderType: 'slider'
+            sliderEasing: 'easeInOutExpo'
         }">
             <div data-title="PlusSlider" class="slide1">
                 <div>
@@ -66,11 +66,12 @@
         <br />
         <br />
 
+        <h2>
+            PlusSlider with fading and autoplay disabled
+        </h2>
         <div plusslider
          plusslider-options="{
              autoPlay: false,
-             sliderEasing: 'easeInOutExpo',
-             paginationPosition: 'append',
              sliderType: 'fader'
          }">
             <div data-title="PlusSlider" class="slide1">
@@ -95,11 +96,15 @@
         <br />
         <br />
 
+    <div class="l-container">
+        <h2>
+            Full width PlusSlider with easing
+        </h2>
+    </div>
+
     <div plusslider
     plusslider-options="{
-        sliderEasing: 'easeInOutExpo',
-        autoPlay: false,
-        sliderType: 'slider'
+        sliderEasing: 'easeInOutExpo'
     }">
         <div data-title="Quote" class="quote">
             I do not fear death,<br />
