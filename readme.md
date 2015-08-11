@@ -1,10 +1,11 @@
 # ngPlusSlider jQuery plugin
-
-An agnostic, fluid jQuery content slider that is easily configurable and stylable.
+An agnostic, fluid jQuery content slider that is easily configurable and styleable.
 
 This plugin makes use of [PlusSlider](https://github.com/JamyGolden/PlusSlider). Visit PlusSlider for more information.
 
 ## Usage instructions
+`bower install angular-plusslider --save`
+
 Include the jQuery, PlusSlider, Angular and ngPlusSlider scripts to your page:
 ```
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
