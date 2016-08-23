@@ -1,6 +1,6 @@
 {
   "name": "ngPlusSlider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An agnostic jQuery content slider that is easily configurable",
   "main": "gulpfile.js",
   "scripts": {
