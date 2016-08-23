@@ -18,10 +18,10 @@ angular.module('ngPlusSlider', [])
     return {
         restrict: 'A',
         scope: {
-            plussliderOptions: '='
+            plussliderOptions: '=?',
         },
         link: function(scope, element) {
-            _slider = new $.plusSlider(element, scope.plussliderOptions)
+            _slider = new $.plusSlider(element, scope.plussliderOptions || {})
 
             scope.$on('destroy', function(){
                 _slider.destroy();
